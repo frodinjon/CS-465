@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [
     {
         "name": "SEAFOOD SPECIAL",
@@ -15,22 +14,4 @@
         "image": "buffet.jpg",
         "description": "<p><span>Mixed Buffet</span> I'm a product overview. Here you can write more information about your product. Buyers like to know ...</p>"
     }
-=======
-[
-    {
-        "name": "SEAFOOD SPECIAL",
-        "image": "seafoods.jpg",
-        "description": "<p><span>Fried Salmon Special</span> I'm a product overview. Here you can write more information about your product. Buyers like to know ...</p>"
-    },
-    {
-        "name": "SUMPTUOUS DESSERTS",
-        "image": "desserts.jpg",
-        "description": "<p><span>Choco Ice Cream Sandwich</span> I'm a product overview. Here you can write more information about your product. Buyers like to know ...</p>"
-    },
-    {
-        "name": "BUFFET",
-        "image": "buffet.jpg",
-        "description": "<p><span>Mixed Buffet</span> I'm a product overview. Here you can write more information about your product. Buyers like to know ...</p>"
-    }
->>>>>>> b7ffb66999f3ff4d55628e9e141c8f31f8a677dd
 ]
