@@ -4,12 +4,14 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const hbs = require('hbs');
+require('./app_api/models/db');
 
-var indexRouter = require('./app_server/routes/index');
-var usersRouter = require('./app_server/routes/users');
-var travelRouter = require('./app_server/routes/travel');
-var roomsRouter = require('./app_server/routes/rooms');
-var mealsRouter = require('./app_server/routes/meals');
+const indexRouter = require('./app_server/routes/index');
+const usersRouter = require('./app_server/routes/users');
+const travelRouter = require('./app_server/routes/travel');
+const roomsRouter = require('./app_server/routes/rooms');
+const mealsRouter = require('./app_server/routes/meals');
+const apiRouter = require('./app_api/routes/index');
 
 var app = express();
 
@@ -30,6 +32,7 @@ app.use('/users', usersRouter);
 app.use('/travel', travelRouter);
 app.use('/rooms', roomsRouter);
 app.use('/meals', mealsRouter);
+app.use('/api', apiRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
