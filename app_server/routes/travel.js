@@ -3,5 +3,5 @@ var router = express.Router();
 const ctlTravel = require('../controllers/travel');
 
 /* GET travel page. */
-router.get('/', ctlTravel.travel);
+router.get('/', ctlTravel.travelList);
 module.exports = router;
